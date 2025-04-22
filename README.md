@@ -47,6 +47,7 @@ The design of Penley is quite simple. A internal-measurement-unit (IMU) tracks t
 <p align="center">
   <img src="images/penley-circuit.png" height="200">
 </p>
+IMU 采用 I2C协议； 蓝牙采用软串口。真实串口留给上位机通信。
 
 The schematics for the hardware are given in the above diagram. Yes, we know its not a CAD schematic. We had 36 hours, and we didn't want to waste time making things look pretty. Except for the Koala bear cap. That was awesome. 
 
@@ -112,18 +113,3 @@ As aforementioned, this project was created in 36 hours with the intent of showi
 * Implement deciphering whole words and sentences without breaks from a stream of IMU data. 
 * Construct a better UI
 
-## Credits 
-
-Krish Kabra - [krishk97](https://github.com/krishk97)
-
-Aidan Cookson - [aucookson97](https://github.com/aucookson97)
-
-Daniel Truong - [danthedolphin](https://github.com/danthedolphin)
-
-Max Gong - [maxg](https://github.com/maxg)
-
-Calvin Chang - [LemonCakeXD](https://github.com/LemonCakeXD)
-
-<p align="center">
-  <img src="images/2020_2ndPlace.jpg" height="500">
-</p>
